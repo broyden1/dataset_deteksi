@@ -1,13 +1,13 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
-
+names:
+- Boots
+- Gloves
+- Helmet
+- Mask
+- Protective Glasses
+- Vest
+- fire
+- smoke
 nc: 8
-names: ['Boots', 'Gloves', 'Helmet', 'Mask', 'Protective Glasses', 'Vest', 'fire', 'smoke']
-
-roboflow:
-  workspace: gradproject-b3qu8
-  project: full-dataset-4plyh
-  version: 2
-  license: CC BY 4.0
-  url: https://universe.roboflow.com/gradproject-b3qu8/full-dataset-4plyh/dataset/2
+test: /content/drive/MyDrive/Colab/msib/projek/dataset/dataset_deteksi/Full Dataset.v2i.yolov8/test
+train: /content/drive/MyDrive/Colab/msib/projek/dataset/dataset_deteksi/Full Dataset.v2i.yolov8/train
+val: /content/drive/MyDrive/Colab/msib/projek/dataset/dataset_deteksi/Full Dataset.v2i.yolov8/valid
